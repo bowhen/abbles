@@ -1,0 +1,122 @@
+body {
+    font-family: "Anton", sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-abbles {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-abbles {
+    display: flex;
+
+}
+
+.nav-abbles > .left-abbles > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+.nav-link-abbles {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-abbles a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-abbles:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-abbles a:hover {
+    color: black;
+}
+
+.active-nav-abbles {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-abbles a {
+    color: black !important;
+}
+
+.portfolio-items-abbles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-abbles {
+    position: relative;
+}
+
+.portfolio-img-abbles {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-abbles {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-abbles img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.img-text-abbles .sub {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+.img-text-abbles:hover .sub{
+    font-weight: 600;
+    color: lightseagreen
+}
+
+.img-dark {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+.two-column-abbles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-abbles img {
+    width: 100%;
+}
+
+.profile-content-abbles {
+    padding: 30px;
+}
+
+.profile-content-abbles h1 {
+    color: purple;
+}
